@@ -5,12 +5,12 @@ Config = {
   UseMetabolism = true,                -- Enable/disable metabolism system. If true, metabolism effects like stamina and hunger will affect players.
 
   EveryTimeStatusDown = 3600,          -- Time interval (in milliseconds) for status drop (3.6 seconds).
-  HowAmountThirstWhileRunning = 3,     -- How much thirst decreases while running (value decreases every 3.6 seconds).
-  HowAmountHungerWhileRunning = 2,     -- How much hunger decreases while running.
-  HowAmountThirst = 2,                 -- How much thirst decreases while not running (idle state).
+  HowAmountThirstWhileRunning = 1,     -- How much thirst decreases while running (value decreases every 3.6 seconds).
+  HowAmountHungerWhileRunning = 1,     -- How much hunger decreases while running.
+  HowAmountThirst = 1,                 -- How much thirst decreases while not running (idle state).
   HowAmountHunger = 1,                 -- How much hunger decreases while not running (idle state).
-  HowAmountMetabolismWhileRunning = 4, -- How much metabolism decreases while running.
-  HowAmountMetabolism = 2,             -- How much metabolism decreases while not running (idle state).
+  HowAmountMetabolismWhileRunning = 2, -- How much metabolism decreases while running.
+  HowAmountMetabolism = 1,             -- How much metabolism decreases while not running (idle state).
 
   FirstHungerStatus = 1000,            -- Starting value for hunger (1000 is full).
   FirstThirstStatus = 1000,            -- Starting value for thirst (1000 is full).
