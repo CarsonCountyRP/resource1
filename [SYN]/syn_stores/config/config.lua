@@ -46,20 +46,20 @@ Config.moveshopcommand = "adminmoveshop" -- move shop to a new location admin co
 Config.unreposhopcommand = "unreposhop" -- admin command to unrepo a shop 
 Config.adminrepocommand = "reposhop" -- sets the shop as repo this doesnt delete the shop just simply hides it from the players
 Config.admindeleteshopcommand = "delshop" -- admin command to delete shops  example /delshop shopid
-Config.maxshops = 1 -- max shops owned by 1 player 
+Config.maxshops = 2 -- max shops owned by 1 player 
 Config.adminbypassmax = true -- admins can bypass the max shops count
 Config.shopcreationitem = "shoptoken" -- item that is used to create a shop
 Config.interactiondistance = 1.5 -- distance which shop interaction prompt is shown
-Config.adminwebhook = ""
+Config.adminwebhook = "https://discord.com/api/webhooks/1400572930366111885/JWrAtjn-E9yua8J7Omm7vZWPCTAdRYo2MyIPm9F1KMDkzl_u3K6_Q3vFO-sbSmpUkAm8"
 Config.webhookavatar = ""
 Config.playershopsprite = -242384756  -- blips for player owned shops 
 Config.initalstorage = 100 -- newly created stores will have this much capacity
 Config.allowuserwebhooks = false 
 Config.shopspacing = 5 -- shops cant be too close to each other.
-Config.moveshopcost = 10000000 -- how much it costs to move a shop
+Config.moveshopcost = 1250 -- how much it costs to move a shop
 Config.relocatecommand = "moveshop"-- command to move a shop by player   DEFAULT "moveshop"
 
-Config.playerstoretax = 1500 -- how much is the tax for player owned stores
+Config.playerstoretax = 500 -- how much is the tax for player owned stores
 
 Config.upgradecost = 10 -- price per slot
 

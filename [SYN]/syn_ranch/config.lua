@@ -28,9 +28,9 @@ Config.keys = {
 Config.ranchtaskdowntick = 30 -- minutes
 
 Config.ledgerwebhook =
-""
+"https://discord.com/api/webhooks/1400573574627987656/TZIP72aOJc1gf1KEhhgi98otUwnktFR0wF3DmkqC3NMVTZdbvzGklft-UtsYfPF-3vQU"
 Config.webhook =
-""
+"https://discord.com/api/webhooks/1400573574627987656/TZIP72aOJc1gf1KEhhgi98otUwnktFR0wF3DmkqC3NMVTZdbvzGklft-UtsYfPF-3vQU"
 Config.lockmaxenviroment = 300 -- set to 0 if u dont want a maximum
 
 Config.command = "createranch"
@@ -64,7 +64,7 @@ if the herd ratio is 1 in the following example that would be cows. the payout a
 --------------------
 Config.bougthQuality = 0.1 -- Qualité de départ des animaux achetés
 Config.maxquality = 200
-Config.maxherd = 5         -- max number of each herd not recommended to go over 10.
+Config.maxherd = 6         -- max number of each herd not recommended to go over 10.
 --------------------
 
 ----------------------------
