@@ -1,0 +1,89 @@
+
+/* * {
+    -webkit-user-select: none;
+    -moz-user-select: none;   
+    -ms-user-select: none;    
+    user-select: none;        
+} */
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    color: whitesmoke;
+    background-color: transparent;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;   
+    -ms-user-select: none;    
+    user-select: none;        
+}
+#board {
+    margin-top: 30px;
+}
+#timer, #text, #score {
+    pointer-events: none;
+}
+
+.balloon {
+    height: 160px;
+    width: 134px;
+    border-radius: 2px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    position: absolute;
+    margin: 0 5px;
+    bottom:-450px;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    z-index: 10; /* Add this line */
+    /* cursor: pointer; */
+  }
+#timer{
+    font-size: 80px;
+    opacity: 0.8;
+    text-align: center;
+    color: rgb(233, 69, 69);
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+#text {
+    font-size: 40px;
+    color: rgb(233, 69, 69);
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+.button {
+    display: inline-block;
+    width:100px;
+    line-height: 40px;
+    border:2px solid rgb(190, 40, 102);
+    border-radius: 20px;
+    background: radial-gradient(circle, rgba(233, 69, 69) 0%, rgba(213, 9, 53, 0.692) 100%);
+    transition: transform 1s;
+    cursor: pointer;
+}
+span {
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+    -webkit-user-select: none; /* Chrome, Safari, and Opera */
+    -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+    user-select: none;
+}
+
